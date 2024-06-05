@@ -8,6 +8,7 @@ namespace ConsumeWebAPI.Controllers
 {
     public class Employee : Controller
     {
+        //This is branched code
         Uri baseaddress = new Uri("https://localhost:44389/api/values/");
         private readonly HttpClient client;
         public Employee()
